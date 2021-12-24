@@ -55,7 +55,7 @@ public class Chat extends AppCompatActivity
         scrollView = (ScrollView)findViewById(R.id.scrollView);
 
         Firebase.setAndroidContext(this);
-
+//Gopi
         reference1 = new Firebase("https://application-578f7-default-rtdb.firebaseio.com/Messages" + UserDetails.username + "_" + UserDetails.chatWith);
         reference2 = new Firebase("https://application-578f7-default-rtdb.firebaseio.com/Messages" + UserDetails.chatWith + "_" + UserDetails.username);
 
